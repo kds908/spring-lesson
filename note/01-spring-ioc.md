@@ -87,16 +87,16 @@
 --- 
 ### 问题：
 
-沙雕问题：什么是 Spring Framework ？
+**沙雕问题：** 什么是 Spring Framework ？
 
-996问题：Spring Framework 有哪些核心模块？
+**996问题：** Spring Framework 有哪些核心模块？
 - spring-core : 提供 Spring 基础 API 模块，如资源管理、泛型处理
 - spring-beans : Spring Bean 相关，如依赖查找，依赖流入
 - spring-aop ： Spring AOP 处理，如动态代理，AOP 字节码提升
 - spring-context : 事件驱动、注解驱动、模块驱动等
 - spring-expression : Spring 表达式语言模块
 
-劝退问题：Spring Framework 的优势和不足是什么？
+**劝退问题：** Spring Framework 的优势和不足是什么？
 问题的答案，贯穿 Spring 始终
 
 --- 
@@ -187,15 +187,15 @@
 
 ---
 ### 问题：
-1. 沙雕问题： 什么是IoC？
+**沙雕问题：** 什么是IoC？
 
 简单地说，IoC 是控制反转，类似于好莱坞原则，主要有依赖查找和依赖注入实现
 
-2. 996问题：依赖查找和依赖注入有什么区别？
+**996问题：** 依赖查找和依赖注入有什么区别？
 
 依赖查找是主动或手动的依赖查找方式，通常需要依赖容器或标准API实现。而依赖注入则是手动或自动依赖绑定的方式，无需特定的容器和API
 
-3. 劝退题： Spring 作为 IoC 容器有什么优势？
+**劝退问题：** Spring 作为 IoC 容器有什么优势？
 
 - 典型的IoC管理，依赖查找和依赖注入
 - AOP抽象
