@@ -226,7 +226,17 @@
     - 单个 Bean 对象
     - 集合 Bean 对象
 ### Spring IoC 依赖注入
-
+    示例：cn.abner.thinking.in.spring.ioc.overview.dependency.injection.DependencyInjectionDemo
+  - 根据 Bean 名称注入
+  - 根据 Bean 类型注入
+    - 单个 Bean 对象
+    - 集合 Bean 对象
+  - 注入容器内建 Bean 对象
+  - 注入非 Bean 对象
+  - 注入类型
+    - 实时注入
+    - 延迟注入
+    
 ### Spring IoC 依赖来源
 
 ### Spring IoC 配置元信息
