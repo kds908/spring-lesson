@@ -11,7 +11,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  *
  * @author: Abner Song
  * <p>
- * @date: 2024/8/5 16:17
  */
 public class BeanAliasDemo {
     public static void main(String[] args) {

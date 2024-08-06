@@ -7,7 +7,6 @@ package cn.abner.thinking.in.spring.ioc.overview.domain;
  *
  * @author: Abner Song
  * <p>
- * @date: 2024/7/31 18:03
  */
 public class User {
     private Integer id;

@@ -18,7 +18,6 @@ import java.util.ServiceLoader;
  *
  * @author: Abner Song
  * <p>
- * @date: 2024/8/5 17:05
  */
 public class SpecialBeanInstantiationDemo {
     public static void main(String[] args) {

@@ -9,7 +9,6 @@ package cn.abner.ioc.java.beans;
  *
  * @author: Abner Song
  * <p>
- * @date: 2024/7/31 16:56
  */
 public class Person {
     String name;

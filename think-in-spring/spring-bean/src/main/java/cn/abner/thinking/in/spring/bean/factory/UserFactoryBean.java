@@ -10,7 +10,6 @@ import org.springframework.beans.factory.FactoryBean;
  *
  * @author: Abner Song
  * <p>
- * @date: 2024/8/5 17:20
  */
 public class UserFactoryBean implements FactoryBean<User> {
     @Override

@@ -9,7 +9,6 @@ import cn.abner.thinking.in.spring.ioc.overview.annotation.Super;
  *
  * @author: Abner Song
  * <p>
- * @date: 2024/8/1 14:18
  */
 @Super
 public class SuperUser extends User {

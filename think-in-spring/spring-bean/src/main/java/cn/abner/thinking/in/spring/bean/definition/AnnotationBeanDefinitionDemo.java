@@ -21,7 +21,6 @@ import static org.springframework.beans.factory.support.BeanDefinitionBuilder.ge
  *
  * @author: Abner Song
  * <p>
- * @date: 2024/8/5 16:23
  */
 @Import(AnnotationBeanDefinitionDemo.Config.class) // 3. 通过 @Import 来进行导入
 public class AnnotationBeanDefinitionDemo {

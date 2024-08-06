@@ -13,7 +13,6 @@ import java.util.stream.Stream;
  *
  * @author: Abner Song
  * <p>
- * @date: 2024/7/31 16:59
  */
 public class BeanInfoDemo {
     public static void main(String[] args) throws IntrospectionException {

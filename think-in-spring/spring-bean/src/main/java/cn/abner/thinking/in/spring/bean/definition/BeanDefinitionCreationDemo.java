@@ -13,7 +13,6 @@ import org.springframework.beans.factory.support.GenericBeanDefinition;
  *
  * @author: Abner Song
  * <p>
- * @date: 2024/8/5 15:47
  */
 public class BeanDefinitionCreationDemo {
     public static void main(String[] args) {

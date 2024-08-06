@@ -61,11 +61,40 @@ Bean 别名（Alias）的价值
   - 通过 AutowireCapableBeanFactory#createBean
   - 通过 BeanDefinitionRegistry#registerBeanDefinition(String, BeanDefinition)
 ## 初始化 Spring Bean
-
+      示例：cn.abner.thinking.in.spring.bean.definition.BeanInitializationDemo
+- @PostConstruct标注
+- 实现 InitializingBean 接口的 afterPropertiesSet() 方法
+- 自定义初始化方法
+  - XML 配置：<bean init-method="abc" ...>
+  - Java 注解：@Bean(initMethod = “abc”)
+  - Java API：AbstractBeanDefinition#setInitMethodName(String)
+**执行顺序：** @PostConstruct -> InitializingBean#afterPropertiesSet -> 自定义 @Bean(initMethod)
 ## 延迟初始化 Spring Bean
+- XML 配置：<bean lazy-init="true" .../>
+- Java 注解：@Lazy(true)
+**思考：** 当某个Bean 定义为延迟初始化，那么 Spring 容器返回的对象与非延迟的对象存在怎样的差异？
 
 ## 销毁 Spring Bean
+- @PreDestroy 标注方法
+- 实现 DisposableBean 接口的 destroy() 方法
+- 自定义销毁方法
+  - XML 配置：<bean destroy="destroy" .../>
+  - Java 注解：@Bean(destroy="destroy")
+  - Java API：AbstractBeanDefinition#setDestroyMethodName(String)
 
+**思考：** 假设以上三种方式均在同一Bean中定义，那么这些方法执行顺序是怎样的？
+执行顺序：@PreDestroy -> DisposableBean#destroy -> 自定义销毁方法 @Bean(destroyMethod)
+- 关闭 Spring 容器（应用上下文）
+- 执行 GC
+- Spring Bean 覆盖的 finalize 方法
 ## 垃圾回收 Spring Bean
-
+      示例：cn.abner.thinking.in.spring.bean.definition.BeanGarbageCollectionDemo
 ## 问题精选
+**沙雕问题：** 如何注册一个 Spring Bean？
+答：通过 BeanDefinition 和外部单体对象来注册 
+
+    外部对象示例：cn.abner.thinking.in.spring.bean.definition.SingletonBeanRegistrationDemo
+
+**996问题：** 什么是 Spring BeanDefinition？
+
+**劝退问题：** Spring 容器是怎样管理注册 Bean？

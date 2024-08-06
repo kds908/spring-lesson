@@ -15,7 +15,6 @@ import java.util.Map;
  *
  * @author: Abner Song
  * <p>
- * @date: 2024/8/1 17:20
  */
 public class AnnotationApplicationContextAsIoCContainerDemo {
     public static void main(String[] args) {

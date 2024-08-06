@@ -9,7 +9,6 @@ import cn.abner.thinking.in.spring.ioc.overview.domain.User;
  *
  * @author: Abner Song
  * <p>
- * @date: 2024/8/5 17:12
  */
 public interface UserFactory {
     default User createUser() {

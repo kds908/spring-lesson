@@ -18,7 +18,6 @@ import java.util.Map;
  *
  * @author: Abner Song
  * <p>
- * @date: 2024/7/31 18:01
  */
 public class DependencyInjectionDemo {
     public static void main(String[] args) {
