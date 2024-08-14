@@ -7,17 +7,17 @@
      - 其他 Bean 引用
      - 配置设置，如 Bean 属性
 ## BeanDefinition 元信息
-| 属性（Property）            | 说明                                  |
-|-------------------------|-------------------------------------|
-| Class                   | Bean 全类名，必须是具体类，不能用抽象类或接口           |
-| Name                    | Bean 的名称或者 ID                       |
-| Scope                   | Bean 的作用域 （如 singleton、prototype 等） |
-| Constructor arguments   | Bean 构造器参数（用于依赖注入）                  |
-| Properties              | Bean 属性设置（用于依赖流入）                   |
-| Autowired mode          | Bean 自动绑定模式（如：通过名称 byName）          |
+| 属性（Property）             | 说明                                  |
+|--------------------------|-------------------------------------|
+| Class                    | Bean 全类名，必须是具体类，不能用抽象类或接口           |
+| Name                     | Bean 的名称或者 ID                       |
+| Scope                    | Bean 的作用域 （如 singleton、prototype 等） |
+| Constructor arguments    | Bean 构造器参数（用于依赖注入）                  |
+| Properties               | Bean 属性设置（用于依赖流入）                   |
+| Autowired mode           | Bean 自动绑定模式（如：通过名称 byName）          |
 | Lazy initialization mode | Bean 延迟初始化模式（延迟和非延迟）                |
-| Initialization method   | Bean 初始化回调方法名称                      |
-| Destruction method      | Bean 销毁回调方法名称                       |
+| Initialization method    | Bean 初始化回调方法名称                      |
+| Destruction method       | Bean 销毁回调方法名称                       |
 
 ### BeanDefinition 构建
     示例：cn.abner.thinking.in.spring.bean.definition.BeanDefinitionCreationDemo

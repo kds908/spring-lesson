@@ -5,15 +5,16 @@
 ---
 ## SPRING IOC
 
-01-spring-ioc.md
+[spring-ioc](note/01-spring-ioc.md)
 
 ## SPRING BEAN
 
-02-spring-bean.md
+[spring-bean](note/02-spring-bean.md)
 
 ## Spring IoC Dependency Lookup
 
-03-spring-ioc-dependency-lookup.md
+[依赖查找 spring-ioc-dependency-lookup](note/03-spring-ioc-dependency-lookup.md)
+
 
 
 
