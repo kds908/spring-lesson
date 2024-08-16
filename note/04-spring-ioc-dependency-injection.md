@@ -20,6 +20,14 @@
 ## 自动绑定（Autowiring）
 
 ## 自动绑定（Autowiring）模式
+### Autowiring modes
+| 模式          | 说明                                    |
+|-------------|---------------------------------------|
+| no          | 默认值，未激活 Autowiring，需要手动指定依赖注入对象       |
+| byName      | 根据被注入属性的名称作为 Bean 名称进行依赖查找，并将对象设置到该属性 |
+| byType      | 根据被注入属性的类型作为依赖类型进行查找，并将对象设置到该属性       |
+| constructor | 特殊 byType 类型，用于构造器参数                  |
+参考枚举： org.springframework.beans.factory.annotation.Autowire
 
 ## 自动绑定（Autowiring）限制和不足
 
